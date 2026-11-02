@@ -1,0 +1,15 @@
+# 渲染产物与素材：体积大、可随时重新生成，不入库
+tools/svs/out/
+tools/svs/data/
+
+# Python 虚拟环境（建库脚本用）
+tools/svs/.venv/
+__pycache__/
+*.pyc
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,13 @@
+* text=auto
+
+# 源码与文档统一用 LF（仓库里本来就是 LF，别让 Windows 检出成 CRLF）
+*.js   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+
+# 二进制
+*.png  binary
+*.wav  binary
+*.zip  binary
